@@ -26,13 +26,13 @@ const generateHtml = team => {
         return`
         <div class="card" id="engineer">
             <header class="card-header">
-                <h2>${engineer.name}</h2>
+                <h2>${engineer.getName()}</h2>
                 <h3>Engineer</h3>
             </header>
             <section>
                 <ul>
                     
-                    <li>Email: <span> <a href="mailto:${engineer.email}">${engineer.email}</a></span></li>
+                    <li>Email: <span> <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></span></li>
                     <li>GitHub: <span> <a href="github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></span></li>
                 </ul>
             </section>
@@ -51,7 +51,7 @@ const generateHtml = team => {
                 <ul>
                     
                     <li>Email: <span> <a href="mailto:${intern.email}">${intern.email}</a></span></li>
-                    <li>School <span>${intern.getSchool()}</span></li>
+                    <li>School: <span>${intern.getSchool()}</span></li>
                 </ul>
             </section>
         </div>
