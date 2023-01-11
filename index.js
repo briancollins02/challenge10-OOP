@@ -74,7 +74,7 @@ function promptEngineer() {
         },  
     ])
     .then((answers) => {
-        const engineer = new Engineer(answers.name, answers.email, answers.github);
+        const engineer = new Engineer(answers.first_name, answers.eMail, answers.github);
         roster.push(engineer);
         promptTeam();
     });
@@ -99,7 +99,7 @@ function promptIntern() {
         },
     ])
     .then((answers) => {
-        const intern = new Intern(answers.name, answers.email, answers.school);
+        const intern = new Intern(answers.first_name, answers.eMail, answers.school);
         roster.push(intern)
         promptTeam();
     });
