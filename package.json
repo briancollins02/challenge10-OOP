@@ -1,0 +1,22 @@
+{
+  "name": "challenge10-oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briancollins02/challenge10-OOP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briancollins02/challenge10-OOP/issues"
+  },
+  "homepage": "https://github.com/briancollins02/challenge10-OOP#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
