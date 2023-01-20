@@ -12,7 +12,7 @@ Open the terminal and navigate to the root directory of this project. Run npm in
 
 ## Usage
 
-to begin the program, type the command, "node index.js" and begin typing your information. Press enter to confirm your responses.
+to begin the program, type the command, "node index.js" and begin typing your information. Press enter to confirm your responses. Once you are finished and select to generate the team file, an html file will be generated in the output directory under the name 'team.html'.
 
 ## License
 
